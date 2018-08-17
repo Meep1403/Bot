@@ -1,1 +1,1 @@
-worker: python Meepbot.py
+worker: python Bot.py
