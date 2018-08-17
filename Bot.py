@@ -203,7 +203,9 @@ async def greet(message: str=None):
                            "Greetings :vulcan:"])                
         await bot.say(q)
 
-
+@bot.command(pass_context=True)
+async def yolo():
+    await bot.say ("yolo")
 @bot.event
 async def on_message(message):
     if "moop" in message.content:
